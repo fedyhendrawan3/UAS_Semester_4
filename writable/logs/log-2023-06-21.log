@@ -1,0 +1,294 @@
+CRITICAL - 2023-06-21 15:36:38 --> Call to a member function select() on null
+in APPPATH\Models\ModelView1.php on line 15.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:38:01 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Models\ModelView1.php on line 16.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\UAS_Semester_4\\app\\Models\\ModelView1.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ModelView1')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ModelView1')
+ 4 APPPATH\Controllers\View1.php(8): spl_autoload_call('App\\Models\\ModelView1')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\View1->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:38:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 15.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:39:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Models\ModelView1.php on line 16.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:42:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::SELECT()
+in APPPATH\Models\ModelView1.php on line 15.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:43:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::SELECT()
+in APPPATH\Models\ModelView1.php on line 15.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:44:58 --> Invalid argument supplied for foreach()
+in APPPATH\Views\View1.php on line 36.
+ 1 APPPATH\Views\View1.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\UAS_Semester_4\\app\\Views\\View1.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\UAS_Semester_4\\app\\Views\\View1.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('View1', [], true)
+ 5 APPPATH\Controllers\View1.php(16): view('View1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:47:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 12.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:51:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(642): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(803): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelView1.php(10): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:57:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 11.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:57:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 11.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:57:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 11.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 15:59:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 13.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:00:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 13.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:00:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\ModelView1.php on line 13.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:04:49 --> Call to a member function query() on null
+in APPPATH\Models\ModelView1.php on line 10.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:05:55 --> Call to a member function query() on null
+in APPPATH\Models\ModelView1.php on line 10.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:05:57 --> Call to a member function query() on null
+in APPPATH\Models\ModelView1.php on line 10.
+ 1 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:12:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\View1.php on line 39.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('View1', [], true)
+ 4 APPPATH\Controllers\View1.php(16): view('View1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:13:03 --> Cannot use object of type stdClass as array
+in APPPATH\Views\View1.php on line 39.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('View1', [], true)
+ 4 APPPATH\Controllers\View1.php(16): view('View1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+CRITICAL - 2023-06-21 16:14:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\View1.php on line 39.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('View1', [], true)
+ 4 APPPATH\Controllers\View1.php(16): view('View1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+ERROR - 2023-06-21 16:35:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_ku...' at line 2 in C:\xampp\htdocs\UAS_Semester_4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\UAS_Semester_4\system\Database\MySQLi\Connection.php(295): mysqli->query('SET @num=0; \r\n ...', 0)
+#1 C:\xampp\htdocs\UAS_Semester_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SET @num=0; \r\n ...')
+#2 C:\xampp\htdocs\UAS_Semester_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SET @num=0; \r\n ...')
+#3 C:\xampp\htdocs\UAS_Semester_4\app\Models\ModelView1.php(16): CodeIgniter\Database\BaseConnection->query('SET @num=0; \r\n ...')
+#4 C:\xampp\htdocs\UAS_Semester_4\app\Controllers\View1.php(14): App\Models\ModelView1->getData()
+#5 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(932): App\Controllers\View1->index()
+#6 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+#7 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Semester_4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Semester_4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-21 16:35:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_ku...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1')
+ 4 APPPATH\Models\ModelView1.php(16): CodeIgniter\Database\BaseConnection->query('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1')
+ 5 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+ERROR - 2023-06-21 16:35:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_ku...' at line 2 in C:\xampp\htdocs\UAS_Semester_4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\UAS_Semester_4\system\Database\MySQLi\Connection.php(295): mysqli->query('SET @num=0; \r\n ...', 0)
+#1 C:\xampp\htdocs\UAS_Semester_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SET @num=0; \r\n ...')
+#2 C:\xampp\htdocs\UAS_Semester_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SET @num=0; \r\n ...')
+#3 C:\xampp\htdocs\UAS_Semester_4\app\Models\ModelView1.php(16): CodeIgniter\Database\BaseConnection->query('SET @num=0; \r\n ...')
+#4 C:\xampp\htdocs\UAS_Semester_4\app\Controllers\View1.php(14): App\Models\ModelView1->getData()
+#5 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(932): App\Controllers\View1->index()
+#6 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+#7 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Semester_4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Semester_4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-21 16:35:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_ku...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1')
+ 4 APPPATH\Models\ModelView1.php(16): CodeIgniter\Database\BaseConnection->query('SET @num=0; 
+                    SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl
+                    ON mkl.id_matkul = mhs.id_matkul
+                    GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin 
+                    ORDER BY 1')
+ 5 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
+ERROR - 2023-06-21 16:36:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_ku...' at line 1 in C:\xampp\htdocs\UAS_Semester_4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\UAS_Semester_4\system\Database\MySQLi\Connection.php(295): mysqli->query('SET @num=0; SEL...', 0)
+#1 C:\xampp\htdocs\UAS_Semester_4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SET @num=0; SEL...')
+#2 C:\xampp\htdocs\UAS_Semester_4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SET @num=0; SEL...')
+#3 C:\xampp\htdocs\UAS_Semester_4\app\Models\ModelView1.php(12): CodeIgniter\Database\BaseConnection->query('SET @num=0; SEL...')
+#4 C:\xampp\htdocs\UAS_Semester_4\app\Controllers\View1.php(14): App\Models\ModelView1->getData()
+#5 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(932): App\Controllers\View1->index()
+#6 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+#7 C:\xampp\htdocs\UAS_Semester_4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\UAS_Semester_4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\UAS_Semester_4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-06-21 16:36:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_ku...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SET @num=0; SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl ON mkl.id_matkul = mhs.id_matkul GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin ORDER BY 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SET @num=0; SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl ON mkl.id_matkul = mhs.id_matkul GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin ORDER BY 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SET @num=0; SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl ON mkl.id_matkul = mhs.id_matkul GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin ORDER BY 1')
+ 4 APPPATH\Models\ModelView1.php(12): CodeIgniter\Database\BaseConnection->query('SET @num=0; SELECT @num:=@num+1 AS No, mhs.jenis_kelamin, count(*) AS jumlah, mkl.mata_kuliah FROM mmahasiswa mhs LEFT JOIN mmatkul mkl ON mkl.id_matkul = mhs.id_matkul GROUP BY mkl.mata_kuliah, mhs.jenis_kelamin ORDER BY 1')
+ 5 APPPATH\Controllers\View1.php(14): App\Models\ModelView1->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\View1->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\View1))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')

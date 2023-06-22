@@ -1,0 +1,7 @@
+CRITICAL - 2023-06-22 13:17:13 --> Class 'App\Models\ModelView3' not found
+in APPPATH\Controllers\View3.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\View3->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\UAS_Semester_4\\public\\index.php')
